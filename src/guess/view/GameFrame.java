@@ -10,10 +10,10 @@ public class GameFrame extends JFrame
 		{
 			basePanel = new GamePanel();
 			
-			buildFrame();
+			//buildFrame();
 		}
 		
-		private void buildFrame()
+		public void buildFrame()
 		{
 			setTitle("Guess the Number!");
 			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

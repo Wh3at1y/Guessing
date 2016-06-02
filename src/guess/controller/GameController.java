@@ -1,21 +1,18 @@
 package guess.controller;
 
-import guess.model.ChangeDifficultyWindow;
+import guess.view.ChangeDifficultyWindow;
 import guess.view.GameFrame;
 
 public class GameController
 	{
-		ChangeDifficultyWindow changeDifficult;
-		GameFrame baseFrame;
-		
+		private ChangeDifficultyWindow changeDifficult;
+
 		public GameController()
 		{
 			changeDifficult = new ChangeDifficultyWindow();
-			baseFrame = new GameFrame();
 		}
 		
 		public void start()
 		{
-			changeDifficult.buildFrame();
 		}
 	}
